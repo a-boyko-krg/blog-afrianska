@@ -1,0 +1,78 @@
+@mixin h1 {
+  font-size: $titleFontSize;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+  font-weight: 400;
+  font-family: $tiileFont;
+  color: $fontColor;
+}
+
+@mixin h2{
+  font-family: $mainFont;
+  font-size: 36px;
+  font-weight: 600;
+  color:$h2Color;
+}
+
+@mixin h3{
+  font-family: $mainFont;
+  font-size: 20px;
+  font-weight: 600;
+  color:$fontColor;
+}
+
+@mixin main-font {
+  font-family: $mainFont;
+  font-size: $mainFontSize;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: $fontColor;
+}
+
+@mixin small-btn {
+  font-family: $mainFont;
+  width: 223px;
+  height: 56px;
+  background-color: $buttonColor;
+  color: $whiteColor;
+  padding: 15px 48px 15px 48px;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+}
+@mixin nav-panel {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  height: 48px;
+  margin: 40px 0 0 83px;
+}
+
+@mixin our-project-big-font{
+  font-family: $mainFont;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: $whiteColor;
+}
+
+@mixin our-project-smile-font{
+  font-family: $mainFont;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: $whiteColor;
+  opacity: 0.8;
+}
+
+@mixin logo-client-font{
+  font-family: $mainFont;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 46px;
+  letter-spacing: 0.02em;
+}

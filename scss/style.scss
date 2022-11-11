@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&display=swap');
+@import 'variables.scss';
+@import 'mixins.scss';
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1366px;
+}
+
+.hero {
+  width: 1366px;
+  height: 768px;
+  background: $bgColor;
+
+  .hero-navigation {
+    @include nav-panel;
+  }
+}
+.container-main {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 0 0 212px;
+  position: relative;
+}
+.hero-title {
+  display: flex;
+  width: 612px;
+  height: 148px;
+  flex-wrap: wrap;
+  @include h1;
+}
+
+.hero-text {
+  display: flex;
+  width: 425px;
+  height: 82px;
+  flex-wrap: wrap;
+  margin: 32px 0 70px 0;
+  @include main-font;
+}
+.hero-btn {
+  @include small-btn;
+  .hero-btn-see {
+    color: $whiteColor;
+  }
+}
+.illustration {
+  position: absolute;
+  margin-left: 450px;
+  margin-bottom: 300px;
+}
+.articles {
+  display: flex;
+  width: 940px;
+  margin-top: 180px;
+  .articles-h2 {
+    width: 358px;
+    height: 138px;
+    margin: 20px 0 158px 0;
+  }
+  .articles-h3 {
+    margin: 0 75px 19px 48px;
+  }
+}
+.h2 {
+  @include h2;
+}
+.h3 {
+  @include h3;
+}
+.article {
+  width: 380px;
+  height: 525px;
+  background-color: $whiteColor;
+  margin-left: 80px;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  margin-bottom: 100px;
+  .article-text {
+    display: flex;
+    width: 284px;
+    height: 103px;
+    flex-wrap: wrap;
+    @include main-font;
+    margin: 0 48px 32px 48px;
+  }
+  .learn-more {
+    margin-left: 48px;
+  }
+}
+.pic1 {
+  margin: 48px 124px 56px 74px;
+}
+
+.pic2 {
+  margin: -12px 78px 50px 78px;
+}
+.pic3 {
+  margin: 49px 124px 56px 100px;
+}
+
+.our-project {
+  display: flex;
+  flex-direction: column;
+  width: 940px;
+}
+.our-project-title {
+  display: flex;
+  .h2 {
+    color: $fontColor;
+    width: 227px;
+    height: 92px;
+  }
+  .our-project-text {
+    @include main-font;
+    width: 540px;
+    height: 80px;
+    margin-left: 93px;
+  }
+}
+
+.smart-home {
+  margin-top: 108px;
+}
+
+.apps {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 96px;
+}
+
+.sparklite-app,
+.car-app {
+  position: relative;
+}
+
+.smart-home-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 352px;
+  height: 100px;
+  position: absolute;
+  z-index: 10;
+  margin: 48px 48px 269px 551px;
+}
+
+.sparklite-app-text,
+.car-app-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  z-index: 10;
+  margin: 24px 0 0 32px;
+}
+
+.our-project-big-text {
+  @include our-project-big-font;
+}
+
+.our-project-small-text {
+  @include our-project-smile-font;
+}
+
+.our-client-container {
+  display: flex;
+  flex-direction: column;
+  width: 1366px;
+  height: 1549px;
+  background-color: $buttonColor;
+  border-radius: 200px 0 0 0;
+  margin-top: 192px;
+  position: relative;
+}
+
+.our-client {
+  z-index: 10;
+  margin: 96px 0 0 213px;
+  color: $whiteColor;
+}
+
+.our-client-title {
+  display: flex;
+  color: $whiteColor;
+  .h2 {
+    width: 227px;
+    height: 92px;
+    color: $whiteColor;
+  }
+  .our-client-text {
+    @include main-font;
+    color: $whiteColor;
+    width: 540px;
+    height: 80px;
+    margin-left: 93px;
+  }
+}
+
+.clients-logo {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 123px;
+
+  a {
+    width: 235px;
+    height: 128px;
+    @include logo-client-font;
+    color: $whiteColor;
+    border-right: 1px solid $whiteColor;
+    text-align: center;
+    line-height: 128px;
+  }
+  a:nth-child(4),
+  a:nth-child(8) {
+    border-right: none;
+  }
+  a:nth-child(1),
+  a:nth-child(2),
+  a:nth-child(3),
+  a:nth-child(4) {
+    border-bottom: 1px solid $whiteColor;
+  }
+  a:hover {
+    background-color: $fontColor;
+    opacity: 0.2;
+    color: $whiteColor;
+  }
+}
+
+.footer {
+  width: 1270px;
+  height: 869px;
+  background-color: $h2Color;
+  border-radius: 0 200px 0 0;
+  position: absolute;
+  margin-top: 680px;
+}
+
+.our-team-title {
+  position: relative;
+  width: 1073px;
+  height: 390px;
+  display: flex;
+  flex-direction: column;
+  color: $whiteColor;
+  padding: 91px 0 0 213px;
+  border-bottom: 1px solid $whiteColor;
+  .h2 {
+    width: 317px;
+    height: 92px;
+    color: $whiteColor;
+  }
+  .our-team-text {
+    @include main-font;
+    color: $whiteColor;
+    width: 503px;
+    height: 80px;
+  }
+}
+.talk-btn {
+  position: absolute;
+  align-self: end;
+  margin-top: 40px;
+  @include small-btn;
+  .lets-talk-btn {
+    color: $whiteColor;
+    padding-left: 30px;
+  }
+}
+
+.footer-container {
+  display: flex;
+  padding: 97px 0 0 213px;
+  .footer-title {
+    @include our-project-big-font;
+    letter-spacing: 0.02em;
+  }
+  .footer-logo {
+    margin-right: 16px;
+  }
+  span {
+    position: relative;
+    top: 26px;
+    @include our-project-smile-font;
+    line-height: 26px;
+    opacity: 1;
+  }
+  .address,
+  .about,
+  .follow {
+    @include our-project-smile-font;
+    line-height: 26px;
+    opacity: 1;
+    margin-left: 30px;
+  }
+}
+
+.contacts,
+.about-us,
+.follow-us {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+.about-us,
+.follow-us{
+  .footer-title{
+    margin-left: 27px;
+  }
+}
+
+.about,
+.follow {
+  margin-top: 20px;
+  a {
+    color: $whiteColor;
+  }
+}
+.copyrights{
+  @include our-project-smile-font;
+  line-height: 26px; 
+  opacity: 0.4;
+  margin: 64px 0 0 213px;
+}
