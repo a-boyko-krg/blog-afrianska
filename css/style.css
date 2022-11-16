@@ -4,7 +4,7 @@ a {
   color: inherit;
 }
 
-.container {
+.big-container {
   max-width: 1366px;
   display: flex;
   justify-content: center;
@@ -312,9 +312,9 @@ a {
   margin-top: 680px;
 }
 
-.our-team-title {
+.footer-inner .our-team-title {
   position: relative;
-  width: 1073px;
+  width: 1270px;
   height: 390px;
   display: flex;
   flex-direction: column;
@@ -322,12 +322,16 @@ a {
   padding: 91px 0 0 213px;
   border-bottom: 1px solid #ffffff;
 }
-.our-team-title .h2 {
+.footer-inner .our-team-title .h2 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #316099;
   width: 317px;
   height: 92px;
   color: #ffffff;
 }
-.our-team-title .our-team-text {
+.footer-inner .our-team-title .our-team-text {
   font-family: "Quicksand", sans-serif;
   font-size: 18px;
   font-weight: 300;
@@ -338,8 +342,7 @@ a {
   width: 503px;
   height: 80px;
 }
-
-.talk-btn {
+.footer-inner .talk-btn {
   font-family: "Quicksand", sans-serif;
   width: 223px;
   height: 56px;
@@ -352,17 +355,16 @@ a {
   letter-spacing: 0.04em;
   position: absolute;
   align-self: end;
-  margin-top: 40px;
+  margin: 40px 197px 0 0;
 }
-.talk-btn .lets-talk-btn {
+.footer-inner .talk-btn .lets-talk-btn {
   padding-left: 30px;
 }
-
-.footer-container {
+.footer-inner .footer-container {
   display: flex;
   padding: 97px 0 0 213px;
 }
-.footer-container .footer-title {
+.footer-inner .footer-container .footer-title {
   font-family: "Quicksand", sans-serif;
   font-weight: 500;
   font-size: 28px;
@@ -371,10 +373,10 @@ a {
   color: #ffffff;
   letter-spacing: 0.02em;
 }
-.footer-container .footer-logo {
+.footer-inner .footer-container .footer-logo {
   margin-right: 16px;
 }
-.footer-container span {
+.footer-inner .footer-container span {
   position: relative;
   top: 26px;
   font-family: "Quicksand", sans-serif;
@@ -387,9 +389,9 @@ a {
   line-height: 26px;
   opacity: 1;
 }
-.footer-container .address,
-.footer-container .about,
-.footer-container .follow {
+.footer-inner .footer-container .address,
+.footer-inner .footer-container .about,
+.footer-inner .footer-container .follow {
   font-family: "Quicksand", sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -401,26 +403,22 @@ a {
   opacity: 1;
   margin-left: 30px;
 }
-
-.contacts,
-.about-us,
-.follow-us {
+.footer-inner .contacts,
+.footer-inner .about-us,
+.footer-inner .follow-us {
   display: flex;
   flex-direction: column;
   margin-right: 100px;
 }
-
-.about-us .footer-title,
-.follow-us .footer-title {
+.footer-inner .about-us .footer-title,
+.footer-inner .follow-us .footer-title {
   margin-left: 27px;
 }
-
-.about,
-.follow {
+.footer-inner .about,
+.footer-inner .follow {
   margin-top: 20px;
 }
-
-.copyrights {
+.footer-inner .copyrights {
   font-family: "Quicksand", sans-serif;
   font-weight: 300;
   font-size: 16px;

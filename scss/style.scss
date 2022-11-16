@@ -2,12 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&display=swap');
 @import 'variables.scss';
 @import 'mixins.scss';
+@import 'footer.scss';
 
 a {
   color: inherit;
 }
 
-.container {
+.big-container {
   max-width: 1366px;
   display: flex;
   justify-content: center;
@@ -248,85 +249,6 @@ a {
   margin-top: 680px;
 }
 
-.our-team-title {
-  position: relative;
-  width: 1073px;
-  height: 390px;
-  display: flex;
-  flex-direction: column;
-  color: $whiteColor;
-  padding: 91px 0 0 213px;
-  border-bottom: 1px solid $whiteColor;
-  .h2 {
-    width: 317px;
-    height: 92px;
-    color: $whiteColor;
-  }
-  .our-team-text {
-    @include main-font;
-    color: $whiteColor;
-    width: 503px;
-    height: 80px;
-  }
-}
-.talk-btn {
-  @include small-btn;
-  position: absolute;
-  align-self: end;
-  margin-top: 40px;
-  .lets-talk-btn {
-    padding-left: 30px;
-  }
-}
-
-.footer-container {
-  display: flex;
-  padding: 97px 0 0 213px;
-  .footer-title {
-    @include our-project-big-font;
-    letter-spacing: 0.02em;
-  }
-  .footer-logo {
-    margin-right: 16px;
-  }
-  span {
-    position: relative;
-    top: 26px;
-    @include our-project-smile-font;
-    line-height: 26px;
-    opacity: 1;
-  }
-  .address,
-  .about,
-  .follow {
-    @include our-project-smile-font;
-    line-height: 26px;
-    opacity: 1;
-    margin-left: 30px;
-  }
-}
-
-.contacts,
-.about-us,
-.follow-us {
-  display: flex;
-  flex-direction: column;
-  margin-right: 100px;
-}
-.about-us,
-.follow-us {
-  .footer-title {
-    margin-left: 27px;
-  }
-}
-
-.about,
-.follow {
-  margin-top: 20px;
-}
-.copyrights {
-  @include our-project-smile-font;
-  line-height: 26px;
-  opacity: 0.4;
-  margin: 64px 0 0 213px;
+.footer-inner {
+  @include footer;
 }

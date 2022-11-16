@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&display=swap");
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+.big-container {
+  max-width: 1366px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  height: 48px;
+  margin: 40px 0 0 83px;
+}
+
+.blog-header {
+  height: 250px;
+  margin-top: 42px;
+  background-image: url(../image/blog-header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.blog-inner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blog-inner .blog-title {
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+  font-weight: 400;
+  font-family: "Vollkorn", serif;
+  color: #1f3f68;
+  font-family: "Quicksand", sans-serif;
+  color: #ffffff;
+  padding-top: 50px;
+}
+.blog-inner .subtitle {
+  width: 780px;
+  height: 60px;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  padding-top: 16px;
+}
+
+.container {
+  max-width: 940px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.search-form {
+  width: 100%;
+  height: 56px;
+  margin-top: 56px;
+  background-color: #f4f4f4;
+  line-height: 56px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.search-img {
+  position: absolute;
+  margin: 16px 0 0 24px;
+}
+
+.search-form input {
+  width: 98%;
+  height: 80%;
+  background-color: transparent;
+  padding: 0 72px;
+  font-size: 16px;
+  color: #1f3f68;
+  line-height: 19px;
+  opacity: 0.6;
+}
+
+.footer {
+  width: 1270px;
+  height: 869px;
+  background-color: #316099;
+  border-radius: 0 200px 0 0;
+}
+
+.footer-inner .our-team-title {
+  position: relative;
+  width: 1270px;
+  height: 390px;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  padding: 91px 0 0 213px;
+  border-bottom: 1px solid #ffffff;
+}
+.footer-inner .our-team-title .h2 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #316099;
+  width: 317px;
+  height: 92px;
+  color: #ffffff;
+}
+.footer-inner .our-team-title .our-team-text {
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1f3f68;
+  color: #ffffff;
+  width: 503px;
+  height: 80px;
+}
+.footer-inner .talk-btn {
+  font-family: "Quicksand", sans-serif;
+  width: 223px;
+  height: 56px;
+  background-color: #5a98d0;
+  color: #ffffff;
+  padding: 15px 48px 15px 48px;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  position: absolute;
+  align-self: end;
+  margin: 40px 197px 0 0;
+}
+.footer-inner .talk-btn .lets-talk-btn {
+  padding-left: 30px;
+}
+.footer-inner .footer-container {
+  display: flex;
+  padding: 97px 0 0 213px;
+}
+.footer-inner .footer-container .footer-title {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  letter-spacing: 0.02em;
+}
+.footer-inner .footer-container .footer-logo {
+  margin-right: 16px;
+}
+.footer-inner .footer-container span {
+  position: relative;
+  top: 26px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  opacity: 0.8;
+  line-height: 26px;
+  opacity: 1;
+}
+.footer-inner .footer-container .address,
+.footer-inner .footer-container .about,
+.footer-inner .footer-container .follow {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  opacity: 0.8;
+  line-height: 26px;
+  opacity: 1;
+  margin-left: 30px;
+}
+.footer-inner .contacts,
+.footer-inner .about-us,
+.footer-inner .follow-us {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+.footer-inner .about-us .footer-title,
+.footer-inner .follow-us .footer-title {
+  margin-left: 27px;
+}
+.footer-inner .about,
+.footer-inner .follow {
+  margin-top: 20px;
+}
+.footer-inner .copyrights {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  opacity: 0.8;
+  line-height: 26px;
+  opacity: 0.4;
+  margin: 64px 0 0 213px;
+}/*# sourceMappingURL=blogpage.css.map */
