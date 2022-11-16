@@ -92,11 +92,134 @@ a {
   opacity: 0.6;
 }
 
+.popular-first-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.popular-first-title-inner {
+  max-width: 940px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: flex-start;
+  margin-top: 56px;
+}
+
+.section-first-popular {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.popular-first-title {
+  text-transform: uppercase;
+  color: #356ead;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.04em;
+  opacity: 0.8;
+}
+
+.popular-main-first-title {
+  width: 380px;
+  height: 100px;
+  font-family: "Vollkorn", serif;
+  font-size: 38px;
+  line-height: 50px;
+  letter-spacing: 0.04em;
+  color: #1f3f68;
+}
+
+.popular-first-article-lext {
+  width: 360px;
+  margin-top: 32px;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.04em;
+  opacity: 0.6;
+  color: #000000;
+}
+
+.footer-article {
+  display: flex;
+  margin-top: 16px;
+}
+
+.autor {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #1f3f68;
+}
+.autor span {
+  opacity: 0.4;
+  margin-top: 4px;
+}
+
+.bookmarks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+.bookmarks img:nth-child(1) {
+  margin-right: 32px;
+}
+
+.popular-articles-inner {
+  margin-top: 32px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+.popular-articles-inner .popular-articles:nth-child(2) {
+  margin: 0 10px 0 10px;
+}
+
+.popular-title {
+  width: 298px;
+  margin-top: 16px;
+  font-family: "Vollkorn", serif;
+  font-size: 22px;
+  line-height: 136%;
+  letter-spacing: 0.04em;
+  color: #1f3f68;
+}
+
+.popular-article-lext {
+  margin-top: 16px;
+  width: 298px;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: 0.04em;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.see-all-popular {
+  max-width: 940px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+}
+.see-all-popular .see-all {
+  margin-top: 54px;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #356ead;
+  opacity: 0.8;
+}
+
 .footer {
   width: 1270px;
   height: 869px;
   background-color: #316099;
   border-radius: 0 200px 0 0;
+  margin-top: 96px;
 }
 
 .footer-inner .our-team-title {

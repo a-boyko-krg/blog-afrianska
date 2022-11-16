@@ -4,21 +4,21 @@
   letter-spacing: 0.04em;
   font-weight: 400;
   font-family: $tiileFont;
-  color: $darkBlueColor;
+  color: $Blue-01-color;
 }
 
 @mixin h2 {
   font-family: $mainFont;
   font-size: 36px;
   font-weight: 600;
-  color: $BlueColor;
+  color: $Blue-02-color;
 }
 
 @mixin h3 {
   font-family: $mainFont;
   font-size: 20px;
   font-weight: 600;
-  color: $darkBlueColor;
+  color: $Blue-01-color;
 }
 
 @mixin main-font {
@@ -27,7 +27,7 @@
   font-weight: 300;
   line-height: 26px;
   letter-spacing: 0.05em;
-  color: $darkBlueColor;
+  color: $Blue-01-color;
 }
 
 @mixin our-project-big-font {
@@ -57,8 +57,6 @@
   letter-spacing: 0.02em;
 }
 
-
-
 @mixin nav-panel {
   display: flex;
   justify-content: space-between;
@@ -71,7 +69,7 @@
   font-family: $mainFont;
   width: 223px;
   height: 56px;
-  background-color: $lightBlueColor;
+  background-color: $Blue-04-color;
   color: $whiteColor;
   padding: 15px 48px 15px 48px;
   border-radius: 10px;
@@ -79,5 +77,3 @@
   line-height: 26px;
   letter-spacing: 0.04em;
 }
-
-

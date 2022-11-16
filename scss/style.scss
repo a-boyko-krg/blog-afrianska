@@ -120,7 +120,7 @@ a {
 .our-project-title {
   display: flex;
   .h2 {
-    color: $darkBlueColor;
+    color: $Blue-01-color;
     width: 227px;
     height: 92px;
   }
@@ -181,7 +181,7 @@ a {
   flex-direction: column;
   width: 1366px;
   height: 1549px;
-  background-color: $lightBlueColor;
+  background-color: $Blue-04-color;
   border-radius: 200px 0 0 0;
   margin-top: 192px;
   position: relative;
@@ -234,7 +234,7 @@ a {
     border-bottom: 1px solid $whiteColor;
   }
   a:hover {
-    background-color: $darkBlueColor;
+    background-color: $Blue-01-color;
     opacity: 0.2;
     color: $whiteColor;
   }
@@ -243,7 +243,7 @@ a {
 .footer {
   width: 1270px;
   height: 869px;
-  background-color: $BlueColor;
+  background-color: $Blue-02-color;
   border-radius: 0 200px 0 0;
   position: absolute;
   margin-top: 680px;
