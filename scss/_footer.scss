@@ -1,4 +1,9 @@
 @mixin footer {
+  width: 1270px;
+  height: 869px;
+  background-color: $Blue-02-color;
+  border-radius: 0 200px 0 0;
+  
   .our-team-title {
     position: relative;
     width: 1270px;
@@ -80,6 +85,6 @@
     @include our-project-smile-font;
     line-height: 26px;
     opacity: 0.4;
-    margin: 64px 0 0 213px;
+    margin: 64px 0 64px 213px;
   }
 }

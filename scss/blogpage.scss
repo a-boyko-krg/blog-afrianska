@@ -92,7 +92,7 @@ a {
   justify-content: space-between;
 }
 
-.popular-first-title-inner {
+.article-section-title-inner {
   max-width: 940px;
   display: flex;
   margin: 0 auto;
@@ -106,7 +106,7 @@ a {
   margin-top: 32px;
 }
 
-.popular-first-title {
+.article-section-title {
   text-transform: uppercase;
   color: $Blue-03-color;
   font-weight: 500;
@@ -170,7 +170,7 @@ a {
   }
 }
 
-.popular-title {
+.article-title {
   width: 298px;
   margin-top: 16px;
   font-family: $tiileFont;
@@ -179,7 +179,7 @@ a {
   letter-spacing: 0.04em;
   color: $Blue-01-color;
 }
-.popular-article-lext {
+.article-text {
   margin-top: 16px;
   width: 298px;
   font-size: 16px;
@@ -188,13 +188,12 @@ a {
   color: $blackColor;
   opacity: 0.6;
 }
-
 .see-all-popular {
   max-width: 940px;
   display: flex;
   justify-content: flex-end;
   margin: 0 auto;
-  .see-all{
+  .see-all {
     margin-top: 54px;
     text-transform: uppercase;
     font-size: 16px;
@@ -205,11 +204,32 @@ a {
   }
 }
 
+.article-inner {
+  width: 940px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.article {
+  margin-left: 20px;
+  .article-title,
+  .article-text {
+    width: 550px;
+  }
+  .article-title{
+    margin: 0;
+  }
+}
+.old-new-post{
+  width: 940px;
+  margin-top: 56px;
+  display: flex;
+  justify-content:space-between;
+}
+
 .footer {
-  width: 1270px;
-  height: 869px;
-  background-color: $Blue-02-color;
-  border-radius: 0 200px 0 0;
   margin-top: 96px;
 }
 .footer-inner {

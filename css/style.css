@@ -304,14 +304,16 @@ a {
 }
 
 .footer {
-  width: 1270px;
-  height: 869px;
-  background-color: #316099;
-  border-radius: 0 200px 0 0;
   position: absolute;
   margin-top: 680px;
 }
 
+.footer-inner {
+  width: 1270px;
+  height: 869px;
+  background-color: #316099;
+  border-radius: 0 200px 0 0;
+}
 .footer-inner .our-team-title {
   position: relative;
   width: 1270px;
@@ -428,5 +430,5 @@ a {
   opacity: 0.8;
   line-height: 26px;
   opacity: 0.4;
-  margin: 64px 0 0 213px;
+  margin: 64px 0 64px 213px;
 }/*# sourceMappingURL=style.css.map */

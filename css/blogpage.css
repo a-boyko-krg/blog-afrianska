@@ -98,7 +98,7 @@ a {
   justify-content: space-between;
 }
 
-.popular-first-title-inner {
+.article-section-title-inner {
   max-width: 940px;
   display: flex;
   margin: 0 auto;
@@ -112,7 +112,7 @@ a {
   margin-top: 32px;
 }
 
-.popular-first-title {
+.article-section-title {
   text-transform: uppercase;
   color: #356ead;
   font-weight: 500;
@@ -178,7 +178,7 @@ a {
   margin: 0 10px 0 10px;
 }
 
-.popular-title {
+.article-title {
   width: 298px;
   margin-top: 16px;
   font-family: "Vollkorn", serif;
@@ -188,7 +188,7 @@ a {
   color: #1f3f68;
 }
 
-.popular-article-lext {
+.article-text {
   margin-top: 16px;
   width: 298px;
   font-size: 16px;
@@ -214,14 +214,42 @@ a {
   opacity: 0.8;
 }
 
+.article-inner {
+  width: 940px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.article {
+  margin-left: 20px;
+}
+.article .article-title,
+.article .article-text {
+  width: 550px;
+}
+.article .article-title {
+  margin: 0;
+}
+
+.old-new-post {
+  width: 940px;
+  margin-top: 56px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer {
+  margin-top: 96px;
+}
+
+.footer-inner {
   width: 1270px;
   height: 869px;
   background-color: #316099;
   border-radius: 0 200px 0 0;
-  margin-top: 96px;
 }
-
 .footer-inner .our-team-title {
   position: relative;
   width: 1270px;
@@ -338,5 +366,5 @@ a {
   opacity: 0.8;
   line-height: 26px;
   opacity: 0.4;
-  margin: 64px 0 0 213px;
+  margin: 64px 0 64px 213px;
 }/*# sourceMappingURL=blogpage.css.map */
