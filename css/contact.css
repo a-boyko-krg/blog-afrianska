@@ -1,0 +1,334 @@
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&display=swap");
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+.big-container {
+  max-width: 1366px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 940px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  height: 48px;
+  margin: 40px 0 0 83px;
+}
+
+.contact-header {
+  height: 250px;
+  margin-top: 42px;
+  background-image: url(../image/blog-header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contact-inner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-inner .contact-title {
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+  font-weight: 400;
+  font-family: "Vollkorn", serif;
+  color: #1f3f68;
+  font-family: "Quicksand", sans-serif;
+  color: #ffffff;
+  padding-top: 50px;
+}
+.contact-inner .subtitle {
+  width: 780px;
+  height: 60px;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  padding-top: 16px;
+}
+
+.contacts-inner {
+  width: 940px;
+  margin-top: 57px;
+  display: flex;
+  justify-content: space-between;
+}
+.contacts-inner .contacts,
+.contacts-inner .contacts-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts {
+  width: 300px;
+}
+
+.contacts-img {
+  margin-top: 120px;
+}
+
+.contacts-title {
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #1f3f68;
+  margin-bottom: 24px;
+}
+
+.address-inner {
+  margin-top: 71px;
+}
+
+.contact-text,
+.phone,
+.www,
+.mail {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: #1f3f68;
+  opacity: 0.6;
+}
+
+.phone-inner,
+.service-inner {
+  margin-top: 40px;
+}
+
+.phone-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.service-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-img,
+.www-img,
+.email-img {
+  margin-right: 16px;
+}
+
+.contacts-form {
+  width: 540px;
+  height: 800px;
+  box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+}
+
+.contacts-form-inner {
+  width: 428px;
+  margin: 56px;
+}
+
+.form-name,
+.form-email,
+.form-mesage {
+  width: 428px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.form-textarea {
+  width: 428px;
+  height: 144px;
+}
+
+.form-label {
+  font-size: 16px;
+  line-height: 188%;
+  letter-spacing: 0.04em;
+  color: #1f3f68;
+  opacity: 0.8;
+}
+
+.form-label-name {
+  margin-top: 24px;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  height: 72px;
+  opacity: 0.4;
+  border: 1px solid #356ead;
+  border-radius: 10px;
+  margin-top: 8px;
+  padding: 0 36px;
+  font-size: 16px;
+}
+
+.form-textarea {
+  height: 144px;
+  padding-top: 21px;
+}
+
+.form-btn {
+  font-family: "Quicksand", sans-serif;
+  width: 223px;
+  height: 56px;
+  background-color: #5a98d0;
+  color: #ffffff;
+  padding: 15px 48px 15px 48px;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  width: 428px;
+  margin-top: 72px;
+}
+
+.map {
+  margin-top: 96px;
+}
+
+.footer {
+  margin-top: 96px;
+}
+
+.footer-inner {
+  width: 1270px;
+  height: 869px;
+  background-color: #316099;
+  border-radius: 0 200px 0 0;
+}
+.footer-inner .our-team-title {
+  position: relative;
+  width: 1270px;
+  height: 390px;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  padding: 91px 0 0 213px;
+  border-bottom: 1px solid #ffffff;
+}
+.footer-inner .our-team-title .h2 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #316099;
+  width: 317px;
+  height: 92px;
+  color: #ffffff;
+}
+.footer-inner .our-team-title .our-team-text {
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1f3f68;
+  color: #ffffff;
+  width: 503px;
+  height: 80px;
+}
+.footer-inner .talk-btn {
+  font-family: "Quicksand", sans-serif;
+  width: 223px;
+  height: 56px;
+  background-color: #5a98d0;
+  color: #ffffff;
+  padding: 15px 48px 15px 48px;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  position: absolute;
+  align-self: end;
+  margin: 40px 197px 0 0;
+}
+.footer-inner .talk-btn .lets-talk-btn {
+  padding-left: 30px;
+}
+.footer-inner .footer-container {
+  display: flex;
+  padding: 97px 0 0 213px;
+}
+.footer-inner .footer-container .footer-title {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  letter-spacing: 0.02em;
+}
+.footer-inner .footer-container .footer-logo {
+  margin-right: 16px;
+}
+.footer-inner .footer-container span {
+  position: relative;
+  top: 26px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  opacity: 0.8;
+  line-height: 26px;
+  opacity: 1;
+}
+.footer-inner .footer-container .address,
+.footer-inner .footer-container .about,
+.footer-inner .footer-container .follow {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  opacity: 0.8;
+  line-height: 26px;
+  opacity: 1;
+  margin-left: 30px;
+}
+.footer-inner .contacts,
+.footer-inner .about-us,
+.footer-inner .follow-us {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+.footer-inner .about-us .footer-title,
+.footer-inner .follow-us .footer-title {
+  margin-left: 27px;
+}
+.footer-inner .about,
+.footer-inner .follow {
+  margin-top: 20px;
+}
+.footer-inner .copyrights {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  opacity: 0.8;
+  line-height: 26px;
+  opacity: 0.4;
+  margin: 64px 0 64px 213px;
+}/*# sourceMappingURL=contact.css.map */
